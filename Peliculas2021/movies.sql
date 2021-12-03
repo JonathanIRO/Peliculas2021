@@ -26,6 +26,10 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `datos`
 --
+CREATE SCHEMA IF NOT EXISTS store;
+USE store;
+
+DROP TABLE IF EXISTS datos;
 
 CREATE TABLE `datos` (
   `nombre` varchar(255) NOT NULL,
