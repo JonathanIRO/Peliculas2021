@@ -1,8 +1,8 @@
 <?php
     $servidor="localhost";
     $nombreBD="movies";
-    $usuario="root";
-    $pass="";
+    $usuario="jonathan";
+    $pass="123456";
 
     $conexion = new mysqli($servidor,$usuario,$pass,$nombreBD);
     if($conexion -> connect_error){
