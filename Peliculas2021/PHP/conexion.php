@@ -1,5 +1,5 @@
 <?php
-    $servidor="localhost";
+    $servidor="sql-service";
     $nombreBD="movies";
     $usuario="jonathan";
     $pass="123456";
